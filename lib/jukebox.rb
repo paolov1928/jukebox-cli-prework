@@ -49,6 +49,7 @@ end
 #The run Method
 
 def run
-  
+  help
+  puts 
   
 end

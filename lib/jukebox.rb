@@ -54,5 +54,7 @@ def run
   until user1 == "exit" do
     puts "Please enter a command:"
     user1 = gets.chomp
-      
+      if user1 ==
+  end
+  exit_jukebox
 end

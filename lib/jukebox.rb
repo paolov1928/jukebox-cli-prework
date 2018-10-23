@@ -31,6 +31,7 @@ def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
   if songs.any? {|song| song.to_s == user_response.to_s}
+    
     puts "Playing <song name>"
   elsif user_response.to_i >= 1 && user_response.to_i <= 9
     puts "Playing <song name>"

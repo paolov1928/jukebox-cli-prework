@@ -34,7 +34,7 @@ def play(songs)
     song1 = songs.select {|song| song == user_response}
     puts "Playing #{song1}"
   elsif user_response.to_i >= 1 && user_response.to_i <= 9
-    song2 = songs[.index(user_response.to_i-1)]
+    song2 = songs[user_response.to_i-1]
     puts "Playing #{song2}"
   else
     puts "Invalid input, please try again"

@@ -30,7 +30,7 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   user_response = gets.chomp
-  if songs.any? {|x| x == user_response}
+  if songs.any? {|song| song == user_response}
     puts "Playing <song name>"
   elsif user_response == #song number.any?
     puts "Playing <song name>" #on index

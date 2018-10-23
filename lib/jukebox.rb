@@ -33,7 +33,7 @@ def play(songs)
   if songs.any? {|song| song == user_response}
     puts "Playing <song name>"
   elsif user_response == #song number.any?
-    puts "Playing <song name>" #on index
+    puts "Playing <song name>"
   else
     puts "Invalid input, please try again"
   end

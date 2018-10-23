@@ -54,6 +54,5 @@ def run
   until user1 == "exit" do
     puts "Please enter a command:"
     user1 = gets.chomp
-  until user1 == "exit"
-    
+      
 end

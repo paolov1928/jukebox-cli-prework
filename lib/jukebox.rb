@@ -46,3 +46,9 @@ def exit_jukebox
   puts "Goodbye"
 end
 
+#The run Method
+
+def run
+  
+  
+end

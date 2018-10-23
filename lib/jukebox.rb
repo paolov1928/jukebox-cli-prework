@@ -51,5 +51,5 @@ end
 def run
   help
   puts "Please enter a command:"
-  user1 = 
+  user1 = gets.chomp
 end

@@ -50,8 +50,10 @@ end
 
 def run
   help
-  puts "Please enter a command:"
-  user1 = gets.chomp
+  user1 = ""
+  until user1 == "exit" do
+    puts "Please enter a command:"
+    user1 = gets.chomp
   until user1 == "exit"
     
 end

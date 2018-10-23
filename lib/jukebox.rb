@@ -48,16 +48,17 @@ end
 
 #The run Method
 
-def run
+def run(songs)
   help
   user1 = ""
   until user1 == "exit" do
     puts "Please enter a command:"
     user1 = gets.chomp
       if user1 == "list"
-        list
+        list(songs)
       elsif user1 == "play"
         play(songs)
+      end
   end
   exit_jukebox
 end
